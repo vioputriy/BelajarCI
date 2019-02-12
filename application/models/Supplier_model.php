@@ -2,11 +2,11 @@
 
 class Supplier_model extends CI_Model
 {
-    private $_table = "Supplier";
+    private $_table = "supplier";
 
-    public $Supplier_id;
-    public $Supplier_name;
-    public $Supplier_address;
+    public $supplier_id;
+    public $supplier_name;
+    public $supplier_address;
 
 
     public function getAll()
